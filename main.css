@@ -1,9 +1,16 @@
+
+}
+
 body{
     margin: 0;
     padding: 0;
 }
+*{
+	font-family: 'Anton', sans-serif;
+    font-weight: 100;
+}
 .header{
-    background-image: url('bicycle.jpg');
+    background-image: url('./images/innovate.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -13,13 +20,66 @@ body{
 .header .container{
   max-width: 960px;
     position: relative;
-    top: 200px;
+    top: 300px;
     margin: 0 auto;
     padding: 10 auto;
 
 }
 .header h1{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3em;
+	color: #fff;
+	font-size: 100px;
+	line-height: 80px;
+	letter-spacing: 0.1em;
+	margin-bottom: 50px;
+	margin-top: 0px;
 }
+@media(min-width:850px){
+	.header h1{
+		font-size: 100px;
+	}
+}
+.header p{
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 0.3em;
+	margin-bottom: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header a {
+
+background-color: #111;
+color: white;
+text-decoration: none;
+padding: 10px 40px;
+letter-spacing: 0.1em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header a:hover {
+background-color: #116bee;
+transition: background.5s;	
+}
+
+.nav{
+	
+	background-color: #000;
+	height: 80px;
+	width: 100%;
+}
+.nav ul{
+	list-style-type: none;
+     margin: 0px auto;
+	 padding: 0px;
+	text-align: center;
+}
+.nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	padding: 0px 20px;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+.nav ul li:hover{
+	background-color: #116bee;
+	transition: background.5s;
+	}
+	
