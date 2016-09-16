@@ -10,7 +10,7 @@ body{
     font-weight: 100;
 }
 .header{
-    background-image: url('./images/innovate.jpg');
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
